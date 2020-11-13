@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'kaslotappservice'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f23fb48e4dea4e0d87ddbbf1d1eec02a }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d30134c1f27a4527a1744fc31cbadf2d }}
         package: ${{env.DOTNET_ROOT}}/myapp 
